@@ -62,28 +62,6 @@ Cada página contém:
 
 ---
 
-## 📁 Organização de Arquivos
-
-/
-├── index.html
-├── cursos.html
-├── curso-web.html
-├── curso-datascience.html
-├── curso-marketing.html
-├── curso-uxui.html
-├── css/
-│ └── style.css
-├── js/
-│ └── script.js
-├── assets/
-│ ├── images/
-│ └── icons/
-└── README.md
-
-yaml
-Copiar
-Editar
-
 ## 🚀 Como Executar
 
 1.  Clone o repositório:
@@ -95,6 +73,8 @@ Editar
 2. Abra o arquivo index.html em seu navegador.
 
 3. Explore as páginas e funcionalidades.
+
+---
 
 ## 👨‍💻 Desenvolvido por
 
