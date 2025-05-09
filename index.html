@@ -109,76 +109,135 @@
                 </div>
             </div>
         </section>
+
         <!-- Seção de Matricula -->
         <section>
             <h3>Matrícula</h3>
             <div>
-                <h4>Formulário de Matricula</h4>
-                <form action="">
-                    <!-- Campo de Nome Completo -->
-                    <div>
-                        <label for="name">Nome Completo *</label>
-                        <input type="text" id="name" placeholder="Digite seu nome completo">
-                    </div>
-                    <!-- Campo de Email -->
-                    <div>
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" placeholder="Digite seu email">
-                    </div>
-                    <!-- Campo de Telefone -->
-                    <div>
-                        <label for="phone">Telefone *</label>
-                        <input type="tel" id="phone" pattern="\(\d{2}\)\s\d{4,5}-\d{4}"
-                            placeholder="(00) 00000-0000">
-                    </div>
-                    <!-- Campo de CPF -->
-                    <div>
-                        <label for="cpf">CPF *</label>
-                        <input type="number" id="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00">
-                    </div>
-                    <!-- Campo Curso desejado-->
-                    <div>
-                        <label for="course">Curso desejado *</label>
-                        <select name="course" id="course">
-                            <option value="web">Desenvolvimento Web FullStack</option>
-                            <option value="datascience">Data Science & Machine Learning</option>
-                            <option value="marketing">Marketing Digital & SEO</option>
-                            <option value="uxui">UX/UI Design</option>
-                        </select>
-                    </div>
-                    <!-- Campo de CEP -->
-                    <div>
-                        <label for="cep">CEP *</label>
-                        <input type="number" id="cep" pattern="\d{5}-\d{3}" placeholder="00000-000">
-                    </div>
-                    <!-- Campo de Rua -->
-                    <div>
-                        <label for="rua">Rua *</label>
-                        <input type="text" id="rua">
-                    </div>
-                    <!-- Campo de Bairro -->
-                    <div>
-                        <label for="Bairro">Bairro *</label>
-                        <input type="text" id="Bairro">
-                    </div>
-                    <!-- Campo de Cidade -->
-                    <div>
-                        <label for="cidade">Cidade *</label>
-                        <input type="text" id="cidade">
-                    </div>
-                    <!-- Campo de Estado -->
-                    <div>
-                        <label for="estado">Estado *</label>
-                        <input type="text" id="estado">
-                    </div>
-                    <!-- Botão de Enviar Matricula -->
-                    <div>
-                        <button type="submit">Enviar Matricula</button>
-                    </div>
-                </form>
+                <div>
+                    <h4>Formulário de Matricula</h4>
+                    <form action="">
+                        <!-- Campo de Nome Completo -->
+                        <div>
+                            <label for="name">Nome Completo *</label>
+                            <input type="text" id="name" placeholder="Digite seu nome completo">
+                        </div>
+                        <!-- Campo de Email -->
+                        <div>
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" placeholder="Digite seu email">
+                        </div>
+                        <!-- Campo de Telefone -->
+                        <div>
+                            <label for="phone">Telefone *</label>
+                            <input type="tel" id="phone" pattern="\(\d{2}\)\s\d{4,5}-\d{4}"
+                                placeholder="(00) 00000-0000">
+                        </div>
+                        <!-- Campo de CPF -->
+                        <div>
+                            <label for="cpf">CPF *</label>
+                            <input type="number" id="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+                                placeholder="000.000.000-00">
+                        </div>
+                        <!-- Campo Curso desejado-->
+                        <div>
+                            <label for="course">Curso desejado *</label>
+                            <select name="course" id="course">
+                                <option value="web">Desenvolvimento Web FullStack</option>
+                                <option value="datascience">Data Science & Machine Learning</option>
+                                <option value="marketing">Marketing Digital & SEO</option>
+                                <option value="uxui">UX/UI Design</option>
+                            </select>
+                        </div>
+                        <!-- Campo de CEP -->
+                        <div>
+                            <label for="cep">CEP *</label>
+                            <input type="number" id="cep" pattern="\d{5}-\d{3}" placeholder="00000-000">
+                        </div>
+                        <!-- Campo de Rua -->
+                        <div>
+                            <label for="rua">Rua *</label>
+                            <input type="text" id="rua">
+                        </div>
+                        <!-- Campo de Bairro -->
+                        <div>
+                            <label for="Bairro">Bairro *</label>
+                            <input type="text" id="Bairro">
+                        </div>
+                        <!-- Campo de Cidade -->
+                        <div>
+                            <label for="cidade">Cidade *</label>
+                            <input type="text" id="cidade">
+                        </div>
+                        <!-- Campo de Estado -->
+                        <div>
+                            <label for="estado">Estado *</label>
+                            <input type="text" id="estado">
+                        </div>
+                        <!-- Botão de Enviar Matricula -->
+                        <div>
+                            <button type="submit">Enviar Matricula</button>
+                        </div>
+                    </form>
+                </div>
+                <!--Barra lateral - Areas de conhecimento -->
+                <div>
+                    <h4>Áreas de conhecimento</h4>
+                    <nav>
+                        <ul>
+                            <li>Tecnologia da informação</li>
+                            <li>Administração e Negócios</li>
+                            <li>Marketing Digital</li>
+                            <li>Design Gráfico</li>
+                            <li>Engenharia</li>
+                            <li>Saúde</li>
+                            <li>Educação</li>
+                            <li>Gastronomia</li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </section>
+
     </main>
+    <!-- Rodapé -->
+    <footer>
+        <!-- Informações da EduTech Academy -->
+        <div>
+            <h4>EduTech Academy</h4>
+            <p>Transformando carreiras através da educação de qualidade desde 2010</p>
+        </div>
+        <!-- Contatos  -->
+        <div>
+            <div>
+                <img src="/Assets/icons/phone.svg" alt="telefone">
+                <p>(11) 99999-9999</p>
+            </div>
+            <p>contato@edutechacademy.com.br</p>
+            <p>Av. Paulista, 1000 - São Paulo/SP</p>
+        </div>
+        <!-- Redes Sociais -->
+        <nav>
+            <ul>
+                <li>
+                    <img src="/Assets/icons/facebook.svg" alt="facebook">
+                </li>
+                <li>
+                    <img src="/Assets/icons/instagram.svg" alt="instagram">
+                </li>
+                <li>
+                    <img src="/Assets/icons/twitter.svg" alt="twitter">
+                </li>
+                <li>
+                    <img src="/Assets/icons/linkedin.svg" alt="linkedin">
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <img src="/Assets/icons/copyright.svg" alt="copyright">
+            <p>2025 EduTech Academy. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
