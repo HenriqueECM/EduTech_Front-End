@@ -13,7 +13,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #E0E0E0;
 }
 
 .logo {
@@ -24,7 +25,10 @@ body {
 }
 
 .logo h2 {
-    color: #0077CC;
+    color: #2563ed;
+    font-family: 'poppins', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .logo img {
@@ -41,4 +45,86 @@ body {
 
 .moon {
     display: none;
+}
+
+/* Estarei colocando padding no main para
+    centralizar o conteudo e padronizar */
+main {
+    padding: 0 15px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.principal h1 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.principal p {
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    opacity: 60%; /* 60% de opacidade do texto*/
+}
+
+.cursos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.cursos h3 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.cursos p {
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 60%; /* 60% de opacidade do texto*/
+}
+
+.pack-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.tamanho-img {
+    border-radius: 5px 5px 0 0;
+}
+
+.descricao {
+    position: absolute;
+    width: 100%;
+    bottom: -85px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.horas {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.local {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
