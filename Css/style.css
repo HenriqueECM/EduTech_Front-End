@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo h2 {
+    color: #0077CC;
+}
+
+.logo img {
+    width: 15%;
+}
+
+.menu {
+    filter: invert(100%);
+}
+
+.desktop-cabecalho {
+    display: none;   
+}
+
+.moon {
+    display: none;
+}
