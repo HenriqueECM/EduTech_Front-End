@@ -135,6 +135,7 @@ main {
     color: white;
     background-color: #0077CC;
     padding: 10px;
+    margin-top: 20px;
     border-radius: 5px;
     text-align: center;
 }
@@ -146,11 +147,22 @@ main {
 .horas {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-left: 3px;
     gap: 10px;
+}
+
+.horas img {
+    width: 6%;
 }
 
 .local {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 10px;
+}
+
+.local {
+    width: 6%;
 }
