@@ -23,7 +23,7 @@
                 <li>Sobre</li>
             </ul>
         </nav>
-        <img class ="moon" src="/Assets/icons/moon.svg" alt="">
+        <img class="moon" src="/Assets/icons/moon.svg" alt="">
         <img class="menu" src="/Assets/icons/menu.svg" alt="Menu">
     </header>
     <main>
@@ -112,38 +112,39 @@
         </section>
 
         <!-- Seção de Matricula -->
-        <section>
+        <section class="section-matricula">
             <h3>Matrícula</h3>
-            <div>
+            <div class="matricula">
                 <div>
                     <h4>Formulário de Matricula</h4>
-                    <form action="">
+                    <form action="" class="formulario-matricula">
                         <!-- Campo de Nome Completo -->
-                        <div>
+                        <div class="packcard-matricula">
                             <label for="name">Nome Completo *</label>
                             <input type="text" id="name" placeholder="Digite seu nome completo">
                         </div>
                         <!-- Campo de Email -->
-                        <div>
+                        <div class="packcard-matricula">
                             <label for="email">Email *</label>
                             <input type="email" id="email" placeholder="Digite seu email">
                         </div>
                         <!-- Campo de Telefone -->
-                        <div>
+                        <div class="packcard-matricula">
                             <label for="phone">Telefone *</label>
                             <input type="tel" id="phone" pattern="\(\d{2}\)\s\d{4,5}-\d{4}"
                                 placeholder="(00) 00000-0000">
                         </div>
                         <!-- Campo de CPF -->
-                        <div>
+                        <div class="packcard-matricula">
                             <label for="cpf">CPF *</label>
                             <input type="number" id="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
                                 placeholder="000.000.000-00">
                         </div>
                         <!-- Campo Curso desejado-->
-                        <div>
+                        <div class="packcard-curso">
                             <label for="course">Curso desejado *</label>
                             <select name="course" id="course">
+                                <option value="Selection">Selecione um curso</option>
                                 <option value="web">Desenvolvimento Web FullStack</option>
                                 <option value="datascience">Data Science & Machine Learning</option>
                                 <option value="marketing">Marketing Digital & SEO</option>
@@ -151,38 +152,37 @@
                             </select>
                         </div>
                         <!-- Campo de CEP -->
-                        <div>
+                        <div class="packcard-matricula">
                             <label for="cep">CEP *</label>
                             <input type="number" id="cep" pattern="\d{5}-\d{3}" placeholder="00000-000">
                         </div>
                         <!-- Campo de Rua -->
-                        <div>
+                        <div class="packcard-matricula">
                             <label for="rua">Rua *</label>
                             <input type="text" id="rua">
                         </div>
                         <!-- Campo de Bairro -->
-                        <div>
+                        <div class="packcard-matricula">
                             <label for="Bairro">Bairro *</label>
                             <input type="text" id="Bairro">
                         </div>
                         <!-- Campo de Cidade -->
-                        <div>
+                        <div class="packcard-matricula">
                             <label for="cidade">Cidade *</label>
                             <input type="text" id="cidade">
                         </div>
                         <!-- Campo de Estado -->
-                        <div>
+                        <div class="packcard-matricula">
                             <label for="estado">Estado *</label>
                             <input type="text" id="estado">
                         </div>
                         <!-- Botão de Enviar Matricula -->
-                        <div>
-                            <button type="submit">Enviar Matricula</button>
-                        </div>
+                        <button class="button-matricula" type="submit">Enviar Matricula</button>
+
                     </form>
                 </div>
                 <!--Barra lateral - Areas de conhecimento -->
-                <div>
+                <div class="areas-conhecimento">
                     <h4>Áreas de conhecimento</h4>
                     <nav>
                         <ul>
@@ -204,13 +204,14 @@
     <!-- Rodapé -->
     <footer>
         <!-- Informações da EduTech Academy -->
-        <div>
+        <div class="information-footer">
             <h4>EduTech Academy</h4>
             <p>Transformando carreiras através da educação de qualidade desde 2010</p>
         </div>
         <!-- Contatos  -->
-        <div>
-            <div>
+        <div class="contact-footer">
+            <h4>Contato</h4>
+            <div class="telefone">
                 <img src="/Assets/icons/phone.svg" alt="telefone">
                 <p>(11) 99999-9999</p>
             </div>
@@ -218,23 +219,27 @@
             <p>Av. Paulista, 1000 - São Paulo/SP</p>
         </div>
         <!-- Redes Sociais -->
-        <nav>
-            <ul>
-                <li>
-                    <img src="/Assets/icons/facebook.svg" alt="facebook">
-                </li>
-                <li>
-                    <img src="/Assets/icons/instagram.svg" alt="instagram">
-                </li>
-                <li>
-                    <img src="/Assets/icons/twitter.svg" alt="twitter">
-                </li>
-                <li>
-                    <img src="/Assets/icons/linkedin.svg" alt="linkedin">
-                </li>
-            </ul>
-        </nav>
-        <div>
+        <div class="social-footer">
+            <h4>Redes Sociais</h4>
+            <nav>
+                <ul>
+                    <li>
+                        <img src="/Assets/icons/facebook.svg" alt="facebook">
+                    </li>
+                    <li>
+                        <img src="/Assets/icons/instagram.svg" alt="instagram">
+                    </li>
+                    <li>
+                        <img src="/Assets/icons/twitter.svg" alt="twitter">
+                    </li>
+                    <li>
+                        <img src="/Assets/icons/linkedin.svg" alt="linkedin">
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="copyright-footer">
             <img src="/Assets/icons/copyright.svg" alt="copyright">
             <p>2025 EduTech Academy. Todos os direitos reservados.</p>
         </div>

@@ -133,7 +133,7 @@ main {
 .descricao a {
     text-decoration: none;
     color: white;
-    background-color: #0077CC;
+    background-color: #005FA3;
     padding: 10px;
     margin-top: 20px;
     border-radius: 5px;
@@ -141,7 +141,7 @@ main {
 }
 
 .descricao a:hover {
-    background-color: #2563ed;
+    background-color: #3b82f6;
 }
 
 .horas {
@@ -165,4 +165,209 @@ main {
 
 .local {
     width: 6%;
+}
+
+.section-matricula {
+    margin-top: 3rem;
+}
+
+.section-matricula h3 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.matricula {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.matricula h4 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.formulario-matricula {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.packcard-matricula {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.packcard-matricula input {
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.packcard-curso {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.packcard-curso select {
+    border: 0.2px solid #E0E0E0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.button-matricula {
+    color: white;
+    background-color: #005FA3;
+    padding: 6px 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+.button-matricula :hover {
+    background-color: #3b82f6;
+}
+
+.areas-conhecimento {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.areas-conhecimento h4 {
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.areas-conhecimento nav {
+    padding: 0 20px;
+}
+
+.areas-conhecimento nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.areas-conhecimento nav ul li {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 0 15px;
+    margin-top: 7rem;
+}
+
+.information-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.information-footer h4 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.information-footer p {
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 60%;
+}
+
+.contact-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.telefone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-footer h4 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.contact-footer p {
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 60%;
+}
+
+.social-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-footer nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.social-footer nav ul li {
+    list-style: none;
+}
+
+.social-footer h4 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.copyright-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 2.5rem;
+}
+
+.copyright-footer img {
+    width: 5%;
+}
+
+.copyright-footer p {
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 60%;
+    text-align: center;
+    padding: 15px 0 0 ;
 }
