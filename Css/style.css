@@ -5,8 +5,20 @@
 }
 
 body {
-    
+    background-color: #F9F9F9;
+    color: #1E1E1E;
 }
+
+.dark-mode {
+    background-color: #1E1E1E !important;
+    color: #F9F9F9 !important;
+}
+
+.dark-mode-card {
+    background-color: #2c2c2c !important;
+    color: #F9F9F9 !important;
+}
+
 
 .cabecalho {
     display: flex;
@@ -99,23 +111,23 @@ main {
     flex-direction: column;
     border: 1px solid #E0E0E0;
     border-radius: 8px;
-    margin-bottom: 120px;
-    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
 }
 
-.tamanho-img {
-    border-radius: 5px 5px 0 0;
+.imagem-card {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 }
 
 .descricao {
-    position: absolute;
-    width: 100%;
-    bottom: -85px;
     background-color: white;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 15px;
 }
 
 .descricao h4 {
@@ -135,9 +147,10 @@ main {
     color: white;
     background-color: #005FA3;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 5px;
     text-align: center;
+    transition: background-color 0.3s;
 }
 
 .descricao a:hover {
@@ -148,12 +161,7 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 3px;
     gap: 10px;
-}
-
-.horas img {
-    width: 20px;
 }
 
 .local {
@@ -162,6 +170,7 @@ main {
     align-items: center;
     gap: 10px;
 }
+
 
 .section-matricula {
     margin-top: 3rem;
@@ -366,4 +375,14 @@ footer {
     opacity: 60%;
     text-align: center;
     padding: 15px 0 0 ;
+}
+
+.toogle {
+    padding: 7px 7px;
+    background-color: #005FA3;
+    border-radius: 20%;
+    position: fixed;
+    right: 1rem;
+    bottom: 0.2rem;
+    cursor: pointer;
 }

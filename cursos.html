@@ -10,12 +10,12 @@
 
 <body>
     <!-- cabeçalho -->
-    <header>
-        <div>
+    <header class="cabecalho">
+        <div class="logo">
             <img src="/Assets/icons/logo.svg" alt="logo">
             <h2>EduTech Academy</h2>
         </div>
-        <nav>
+        <nav class="desktop-cabecalho">
             <ul>
                 <li>Home</li>
                 <li>Cursos</li>
@@ -23,23 +23,23 @@
                 <li>Sobre</li>
             </ul>
         </nav>
-        <img src="/Assets/icons/moon.svg" alt="">
-        <img src="/Assets/icons/menu.svg" alt="Menu">
+        <img class="moon" src="/Assets/icons/moon.svg" alt="">
+        <img class="menu" src="/Assets/icons/menu.svg" alt="Menu">
     </header>
     <main>
-        <section>
+        <section class="cursos">
             <h3>Nossos Cursos</h3>
             <p>Conheça os cursos disponíveis na EduTech Academy e econtre o melhor para o seu futuro profissional.</p>
             <!-- Desenvolvimento Web FullStack -->
-            <div>
+            <div class="pack-card">
                 <img src="/Assets/image/fullstack.jpg" alt="curso web"></h3>
-                <div>
+                <div class="descricao">
                     <h4>Desenvolvimento Web FullStack</h4>
-                    <div>
+                    <div class="horas">
                         <img src="/Assets/icons/clock.svg" alt="relogio">
                         <p>120 horas</p>
                     </div>
-                    <div>
+                    <div class="local">
                         <img src="/Assets/icons/map-pin.svg" alt="mapa pin">
                         <p>EAD</p>
                     </div>
@@ -49,15 +49,15 @@
                 </div>
             </div>
             <!-- Data Science -->
-            <div>
+            <div class="pack-card">
                 <img src="/Assets/image/data-science.jpg" alt="curso web"></h3>
-                <div>
+                <div class="descricao">
                     <h4>Data Science & Machine Learning</h4>
-                    <div>
+                    <div class="horas">
                         <img src="/Assets/icons/clock.svg" alt="relogio">
                         <p>100 horas</p>
                     </div>
-                    <div>
+                    <div class="local">
                         <img src="/Assets/icons/map-pin.svg" alt="mapa pin">
                         <p>Presencial</p>
                     </div>
@@ -67,15 +67,15 @@
                 </div>
             </div>
             <!-- Marketing Digital -->
-            <div>
+            <div class="pack-card">
                 <img src="/Assets/image/marketing.jpg" alt="curso web"></h3>
-                <div>
+                <div class="descricao">
                     <h4>Marketing Digital & SEO</h4>
-                    <div>
+                    <div class="horas">
                         <img src="/Assets/icons/clock.svg" alt="relogio">
                         <p>80 horas</p>
                     </div>
-                    <div>
+                    <div class="local">
                         <img src="/Assets/icons/map-pin.svg" alt="mapa pin">
                         <p>EAD</p>
                     </div>
@@ -85,15 +85,15 @@
                 </div>
             </div>
             <!-- UX/UI Design -->
-            <div>
+            <div class="pack-card">
                 <img src="/Assets/image/ux-design.jpg" alt="curso web"></h3>
-                <div>
+                <div class="descricao">
                     <h4>UX/UI Design</h4>
-                    <div>
+                    <div class="horas">
                         <img src="/Assets/icons/clock.svg" alt="relogio">
                         <p>90 horas</p>
                     </div>
-                    <div>
+                    <div class="local">
                         <img src="/Assets/icons/map-pin.svg" alt="mapa pin">
                         <p>Presencial</p>
                     </div>
@@ -104,15 +104,17 @@
             </div>
         </section>
     </main>
+    <!-- Rodapé -->
     <footer>
         <!-- Informações da EduTech Academy -->
-        <div>
+        <div class="information-footer">
             <h4>EduTech Academy</h4>
             <p>Transformando carreiras através da educação de qualidade desde 2010</p>
         </div>
         <!-- Contatos  -->
-        <div>
-            <div>
+        <div class="contact-footer">
+            <h4>Contato</h4>
+            <div class="telefone">
                 <img src="/Assets/icons/phone.svg" alt="telefone">
                 <p>(11) 99999-9999</p>
             </div>
@@ -120,23 +122,27 @@
             <p>Av. Paulista, 1000 - São Paulo/SP</p>
         </div>
         <!-- Redes Sociais -->
-        <nav>
-            <ul>
-                <li>
-                    <img src="/Assets/icons/facebook.svg" alt="facebook">
-                </li>
-                <li>
-                    <img src="/Assets/icons/instagram.svg" alt="instagram">
-                </li>
-                <li>
-                    <img src="/Assets/icons/twitter.svg" alt="twitter">
-                </li>
-                <li>
-                    <img src="/Assets/icons/linkedin.svg" alt="linkedin">
-                </li>
-            </ul>
-        </nav>
-        <div>
+        <div class="social-footer">
+            <h4>Redes Sociais</h4>
+            <nav>
+                <ul>
+                    <li>
+                        <img src="/Assets/icons/facebook.svg" alt="facebook">
+                    </li>
+                    <li>
+                        <img src="/Assets/icons/instagram.svg" alt="instagram">
+                    </li>
+                    <li>
+                        <img src="/Assets/icons/twitter.svg" alt="twitter">
+                    </li>
+                    <li>
+                        <img src="/Assets/icons/linkedin.svg" alt="linkedin">
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="copyright-footer">
             <img src="/Assets/icons/copyright.svg" alt="copyright">
             <p>2025 EduTech Academy. Todos os direitos reservados.</p>
         </div>

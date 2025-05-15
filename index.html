@@ -8,7 +8,7 @@
     <title>EduTech Academy</title>
 </head>
 
-<body>
+<body id="body">
     <!-- cabeçalho -->
     <header class="cabecalho">
         <div class="logo">
@@ -39,7 +39,7 @@
             <h3>Nossos Cursos</h3>
             <!-- Desenvolvimento Web FullStack -->
             <div class="pack-card">
-                <img class="tamanho-img" src="/Assets/image/fullstack.jpg" alt="curso web"></h3>
+                <div class="imagem-card" style="background-image: url(/Assets/image/fullstack.jpg);"></div>
                 <div class="descricao">
                     <h4>Desenvolvimento Web FullStack</h4>
                     <div class="horas">
@@ -50,14 +50,12 @@
                         <img src="/Assets/icons/map-pin.svg" alt="mapa pin">
                         <p>EAD</p>
                     </div>
-                    <a href="/curso-web.html">
-                        Ver detalhes
-                    </a>
+                    <a href="/curso-web.html">Ver detalhes</a>
                 </div>
             </div>
             <!-- Data Science -->
             <div class="pack-card">
-                <img class="tamanho-img" src="/Assets/image/data-science.jpg" alt="curso web"></h3>
+                <div class="imagem-card" style="background-image: url(/Assets/image/data-science.jpg);"></div>
                 <div class="descricao">
                     <h4>Data Science & Machine Learning</h4>
                     <div class="horas">
@@ -75,7 +73,7 @@
             </div>
             <!-- Marketing Digital -->
             <div class="pack-card">
-                <img class="tamanho-img" src="/Assets/image/marketing.jpg" alt="curso web"></h3>
+                <div class="imagem-card" style="background-image: url(/Assets/image/marketing.jpg);"></div>
                 <div class="descricao">
                     <h4>Marketing Digital & SEO</h4>
                     <div class="horas">
@@ -93,7 +91,7 @@
             </div>
             <!-- UX/UI Design -->
             <div class="pack-card">
-                <img class="tamanho-img" src="/Assets/image/ux-design.jpg" alt="curso web"></h3>
+                <div class="imagem-card" style="background-image: url(/Assets/image/ux-design.jpg);"></div>
                 <div class="descricao">
                     <h4>UX/UI Design</h4>
                     <div class="horas">
@@ -238,12 +236,20 @@
                 </ul>
             </nav>
         </div>
-
+        <!-- Copyright -->
         <div class="copyright-footer">
             <img src="/Assets/icons/copyright.svg" alt="copyright">
             <p>2025 EduTech Academy. Todos os direitos reservados.</p>
         </div>
+
+        <!-- botao claro e escuro-->
+        <div class="toogle">
+            <img src="/Assets/icons/moon.svg" alt="toogle dark">
+        </div>
     </footer>
+
+    <script src="/Js/script.js"></script>
+
 </body>
 
 </html>
