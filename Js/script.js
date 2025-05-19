@@ -1,4 +1,3 @@
-const botao = document.querySelector('.toogle');
 const descricoes = document.querySelector('.descricao');
 const cards = document.querySelectorAll('.pack-card');
 const body = document.getElementById('body');
