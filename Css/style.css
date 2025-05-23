@@ -94,7 +94,7 @@ body {
 }
 
 .desktop-cabecalho {
-    display: none;   
+    display: none;
 }
 
 .moon {
@@ -125,7 +125,8 @@ main {
     font-family: 'inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    opacity: 60%; /* 60% de opacidade do texto*/
+    opacity: 60%;
+    /* 60% de opacidade do texto*/
 }
 
 .cursos {
@@ -145,7 +146,8 @@ main {
     font-family: 'inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    opacity: 60%; /* 60% de opacidade do texto*/
+    opacity: 60%;
+    /* 60% de opacidade do texto*/
 }
 
 .pack-card {
@@ -415,7 +417,7 @@ footer {
     font-size: 15px;
     opacity: 60%;
     text-align: center;
-    padding: 15px 0 0 ;
+    padding: 15px 0 0;
 }
 
 .toogle {
@@ -426,4 +428,42 @@ footer {
     right: 1rem;
     bottom: 0.2rem;
     cursor: pointer;
+}
+
+@media (min-width: 590px) {
+    .cursos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+    
+      /* Ajusta o título "Nossos Cursos" para ocupar 100% */
+      .cursos h3 {
+        grid-column: 1 / -1;
+        text-align: center;
+      }
+    
+      /* Garante que cada card ocupe a largura da coluna */
+      .pack-card {
+        margin-bottom: 0;
+      }
+    
+      /* Responsividade do formulário */
+      .formulario-matricula {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+    
+      .formulario-matricula .packcard-curso,
+      .formulario-matricula .packcard-matricula {
+        width: 100%;
+      }
+    
+      .formulario-matricula .button-matricula {
+        grid-column: 1 / -1;
+        justify-self: center;
+        width: fit-content;
+        padding: 10px 60px;
+      }
 }
