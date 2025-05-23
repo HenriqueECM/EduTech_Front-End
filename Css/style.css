@@ -10,62 +10,36 @@ body {
     color: #1E1E1E;
 }
 
+/* Body em modo escuro */
 .dark-mode {
     background-color: #1E1E1E !important;
     color: #F9F9F9 !important;
 }
 
+/* Cards e formulários em modo escuro */
 .dark-mode-card {
     background-color: #2c2c2c !important;
     color: #F9F9F9 !important;
 }
 
+/* Bordas do card em modo escuro */
 .dark-mode .pack-card {
     border: 1px solid #444;
     background-color: #2c2c2c;
 }
 
-
-.dark-mode .descricao {
-    background-color: #2c2c2c;
-    color: #F9F9F9;
-}
-
+/* Botoes do card em modo escuro */
 .dark-mode .descricao a {
     background-color: #3b82f6;
     color: #fff;
 }
 
-.dark-mode input,
-
-.dark-mode select {
-    background-color: #2c2c2c;
-    color: #F9F9F9;
-    border: 1px solid #444;
-}
-
-.dark-mode input::placeholder {
-    color: #ccc;
-}
-
-.dark-mode select option {
-    background-color: #2c2c2c;
-    color: #F9F9F9;
-}
-
-.dark-mode .button-matricula {
-    background-color: #2563eb;
-    color: #fff;
-}
-
-.dark-mode .button-matricula:hover {
-    background-color: #3b82f6;
-}
-
+/* Modo escuro da parte areas de conhecimento */
 .dark-mode .areas-conhecimento nav ul li {
     color: #F9F9F9;
 }
 
+/* Labels em modo escuro */
 .dark-mode label {
     color: #F9F9F9;
 }
@@ -77,6 +51,7 @@ body {
     border: 1px solid #444 !important;
 }
 
+/* Placeholder em modo escuro */
 .dark-input::placeholder {
     color: #ccc !important;
 }
