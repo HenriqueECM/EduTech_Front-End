@@ -2,6 +2,7 @@ const toggleBtn = document.querySelector('.toogle');
 
 // Função para alternar o tema escuro
 function toggleDarkMode() {
+  // Alterna classe de tema escuro no body do documento
   document.body.classList.toggle('dark-mode');
 
   // Alterna classe de tema escuro nos elementos com classe .descricao
@@ -21,5 +22,6 @@ function toggleDarkMode() {
   }
 }
 
-// Adiciona o evento de clique no botão de alternância
+/* Adiciona o evento de clique no botão de alternância
+  de tema claro/escuro e chama a função de tema escuro */
 toggleBtn.addEventListener('click', toggleDarkMode);
