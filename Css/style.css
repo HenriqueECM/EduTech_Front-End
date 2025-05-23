@@ -10,6 +10,10 @@ body {
     color: #1E1E1E;
 }
 
+.dark-mode .menu {
+    filter: invert(0);
+}
+
 /* Body em modo escuro */
 .dark-mode {
     background-color: #1E1E1E !important;
